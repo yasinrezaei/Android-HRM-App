@@ -6,3 +6,5 @@
 
 > Managers can assign the necessary activities to each other by registering tickets in the application
 <hr>
+
+> Backend : Python-Django
