@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/HR-Project/App/app/src/main/res/layout/ticket_recycler_item.xml" value="0.1" />
+        <entry key="..\:/Users/Yasin/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/btn_cancel_bg.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/btn_done_bg.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/card_bg.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/edit_text_bg.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/edt_bg.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_add_business_24.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_addchart_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/important_notif.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/drawable/layout_bg.xml" value="0.2890625" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_manager_daily_report.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_score.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_ticket.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_ticket_detail.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_under_management_user.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_user_detail.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/activity_user_scoring.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/main_profile_page.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/manager_daily_report_recycler_item.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/navigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/new_report_dialog.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/new_ticket_dialog.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/new_user_scoring_dialog.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/profile_fragment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/splach_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/test.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/ticket_recycler_item.xml" value="0.25" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/user_important_need_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/layout/user_recycler_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Yasin/Desktop/Project/App/app/src/main/res/menu/navigation_header.xml" value="0.13796296296296295" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

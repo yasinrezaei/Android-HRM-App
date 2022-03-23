@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:gravity="bottom"
+    android:background="@drawable/logomini"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+
+
+</LinearLayout>

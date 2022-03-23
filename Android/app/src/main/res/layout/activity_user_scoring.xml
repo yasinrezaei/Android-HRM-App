@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/aseman_light"
+    android:layoutDirection="rtl">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/score"
+                android:layout_margin="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ثبت گزارش و امتیاز دهی به کاربران"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/spinner_scoring_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"/>
+        <EditText
+            android:id="@+id/edt_user_scoring_imortant_need"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="نیاز فوری"/>
+        <EditText
+            android:id="@+id/edt_user_scoring_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint=" کلیدواژه ها"
+            />
+        <Button
+            android:id="@+id/btn_send_scoring_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="ثبت گزارش"
+            android:background="@drawable/card_bg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_bg"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Spinner
+            android:id="@+id/spinner_field_scoring_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1.6" />
+        <EditText
+            android:id="@+id/edt_score_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight=".4"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_set_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ثبت امتیاز برای این کاربر"
+        android:layout_margin="10dp"
+        android:background="@drawable/card_bg"
+     />
+
+
+</LinearLayout>

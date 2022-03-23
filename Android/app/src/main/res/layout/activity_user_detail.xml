@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:background="@color/aseman_light">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/layout_bg"
+        android:padding="15dp">
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/user_icon_man"/>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/user_detail_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بنیامین مرادی تبار"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+             />
+            <TextView
+                android:id="@+id/user_detail_department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="واحد منابع انسانی "
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chart_icon"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="وضعیت کلی این کاربر"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+        <org.eazegraph.lib.charts.BarChart
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/barchart_user"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            app:egFixedBarWidth="true"
+            app:egBarWidth="20dp"
+            app:egLegendHeight="40dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/important"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نیاز های فوری"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_important_need_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="ارسال گزارش جدید"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txt_new_daily_report"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint=" متن گزارش "
+        android:background="@drawable/edt_bg"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_yes_daily_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="ارسال"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_done_bg"
+            />
+
+        <Button
+            android:id="@+id/btn_no_daily_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="لغو"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_cancel_bg"/>
+    </LinearLayout>
+
+</LinearLayout>

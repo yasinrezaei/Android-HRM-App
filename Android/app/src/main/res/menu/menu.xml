@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="دسترسی ها">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/tickets_item" android:title="لیست درخواست ها" android:icon="@drawable/ic_baseline_alarm_on_24"/>
+                <item android:id="@+id/manager_daily_reports_item" android:title="گزارش های روزانه مدیران" android:icon="@drawable/ic_baseline_comment_24"/>
+                <item android:id="@+id/under_management_users_item" android:title="افراد تحت مدیریت" android:icon="@drawable/ic_baseline_account_tree_24"/>
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="گزارش گیری">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/under_management_manager_reports_item" android:title="گزارش های مدیران زیرشاخه" android:icon="@drawable/ic_baseline_assignment_24"/>
+                <item android:id="@+id/system_status_item" android:title="وضعیت کلی افراد سیستم" android:icon="@drawable/ic_baseline_assessment_24"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="تنظیمات">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="تنطیمات کاربری" android:id="@+id/setting_item" android:icon="@drawable/ic_baseline_settings_24"></item>
+                <item android:title=" خروج از حساب کاربری" android:id="@+id/exit_item" android:icon="@drawable/ic_baseline_exit_to_app_24"></item>
+            </group>
+
+        </menu>
+
+    </item>
+</menu>

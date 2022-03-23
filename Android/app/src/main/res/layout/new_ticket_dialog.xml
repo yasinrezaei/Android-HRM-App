@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/aseman_light"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="ایجاد درخواست جدید"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <Spinner
+        android:id="@+id/spinner_type_need"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <EditText
+        android:id="@+id/edt_dialog_ticket_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="عنوان درخواست"
+        android:background="@drawable/edt_bg"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edt_dialog_ticket_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="توصیحات درخواست "
+        android:background="@drawable/edt_bg"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="ارسال"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_done_bg"
+            />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="لغو"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_cancel_bg"/>
+    </LinearLayout>
+
+</LinearLayout>
