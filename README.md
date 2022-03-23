@@ -2,6 +2,7 @@
 > This application was created internally for Aseman Company to evaluate the performance of its employees
 <hr>
 
+# Uses
 > Each of the managers of this company can evaluate the performance of its sub-branches and send a report to the main manager of the system on a daily basis.
 
 > Managers can assign the necessary activities to each other by registering tickets in the application
@@ -12,7 +13,11 @@
 * Android : Java
 
 <hr>
+
 ![Screenshot](1.jpg)
+
 ![Screenshot](2.jpg)
+
 ![Screenshot](3.jpg)
+
 ![Screenshot](4.jpg)
