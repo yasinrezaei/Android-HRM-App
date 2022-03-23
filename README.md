@@ -14,10 +14,8 @@
 
 <hr>
 
-![Screenshot](1.jpg)
+![Screenshot](1.png)
 
-![Screenshot](2.jpg)
+![Screenshot](2.png)
 
-![Screenshot](3.jpg)
 
-![Screenshot](4.jpg)
