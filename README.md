@@ -5,7 +5,7 @@
 # Uses
 > Each of the managers of this company can evaluate the performance of its sub-branches and send a report to the main manager of the system on a daily basis.
 
-> Managers can assign the necessary activities to each other by registering tickets in the application
+> Managers can assign the necessary activities to each other by registering tickets in the application.
 <hr>
 
 # Tools
