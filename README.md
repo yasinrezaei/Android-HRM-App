@@ -1,5 +1,5 @@
 # AsemanTile-HRM
-> This application was created internally for Aseman Company to evaluate the performance of its employees
+> This application was created internally for Aseman Company to evaluate the performance of its employees.
 <hr>
 
 # Uses
