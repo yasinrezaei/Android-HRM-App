@@ -9,8 +9,10 @@ Managers can assign the necessary activities to each other by registering ticket
 <hr>
 
 # `Tools`
-* Backend : Python - Django - DRF - MySql DB
-* Android : Java
+
+Backend : Python - Django - DRF - MySql DB
+
+Android : Java
 
 <hr>
 
