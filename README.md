@@ -1,5 +1,5 @@
 # `Android-HRM-App`
-This application was created internally for Aseman Company to evaluate the performance of its employees.
+This application was created for evaluating the performance of Human resources in organizations
 <hr>
 
 # `Uses`
