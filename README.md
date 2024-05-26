@@ -1,4 +1,4 @@
-# `AsemanTile-HRM`
+# `Android-HRM-App`
 This application was created internally for Aseman Company to evaluate the performance of its employees.
 <hr>
 
